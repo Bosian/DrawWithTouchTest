@@ -15,6 +15,7 @@
 		37E29BF81C19255C0063E13B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E29BF61C19255C0063E13B /* LaunchScreen.storyboard */; };
 		37E29C031C19255C0063E13B /* DrawWithTouchTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E29C021C19255C0063E13B /* DrawWithTouchTestTests.m */; };
 		37E29C0E1C19255C0063E13B /* DrawWithTouchTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E29C0D1C19255C0063E13B /* DrawWithTouchTestUITests.m */; };
+		37E29C1C1C1925930063E13B /* B04.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E29C1B1C1925930063E13B /* B04.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		37E29C091C19255C0063E13B /* DrawWithTouchTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawWithTouchTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E29C0D1C19255C0063E13B /* DrawWithTouchTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawWithTouchTestUITests.m; sourceTree = "<group>"; };
 		37E29C0F1C19255C0063E13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E29C1B1C1925930063E13B /* B04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B04.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		37E29BE71C19255C0063E13B /* DrawWithTouchTest */ = {
 			isa = PBXGroup;
 			children = (
+				37E29C1B1C1925930063E13B /* B04.png */,
 				37E29BEB1C19255C0063E13B /* AppDelegate.h */,
 				37E29BEC1C19255C0063E13B /* AppDelegate.m */,
 				37E29BEE1C19255C0063E13B /* ViewController.h */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E29C1C1C1925930063E13B /* B04.png in Resources */,
 				37E29BF81C19255C0063E13B /* LaunchScreen.storyboard in Resources */,
 				37E29BF51C19255C0063E13B /* Assets.xcassets in Resources */,
 				37E29BF31C19255C0063E13B /* Main.storyboard in Resources */,
