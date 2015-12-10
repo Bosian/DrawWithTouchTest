@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3714AA051C195A7F00BCCECC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E29BEF1C19255C0063E13B /* ViewController.m */; };
 		37E29BEA1C19255C0063E13B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E29BE91C19255C0063E13B /* main.m */; };
 		37E29BED1C19255C0063E13B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E29BEC1C19255C0063E13B /* AppDelegate.m */; };
 		37E29BF01C19255C0063E13B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E29BEF1C19255C0063E13B /* ViewController.m */; };
@@ -284,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3714AA051C195A7F00BCCECC /* ViewController.m in Sources */,
 				37E29C031C19255C0063E13B /* DrawWithTouchTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +504,7 @@
 				37E29C141C19255C0063E13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37E29C151C19255C0063E13B /* Build configuration list for PBXNativeTarget "DrawWithTouchTestTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +513,7 @@
 				37E29C171C19255C0063E13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37E29C181C19255C0063E13B /* Build configuration list for PBXNativeTarget "DrawWithTouchTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +522,7 @@
 				37E29C1A1C19255C0063E13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

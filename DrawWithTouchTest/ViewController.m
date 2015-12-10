@@ -57,15 +57,9 @@
     NSLog(@"panHandler");
     
     CGPoint position = [sender translationInView:sender.view.superview];
-   
-    CGRect oldFrame = sender.view.frame;
     
-    oldFrame.origin.x += position.x;
-    oldFrame.origin.y += position.y;
-    
-    sender.view.frame = oldFrame;
-    
-    [sender.view setNeedsUpdateConstraints];
+    self.leftConstraint.constant += position.x;
+    self.topConstraint.constant += position.y;
     
     [sender setTranslation:CGPointZero inView:sender.view.superview];
 }
@@ -86,10 +80,6 @@
     
     // 鉛筆畫圖
     [self drawPen:touches withImage:_tempImageView];
-    //            [self setNeedsDisplay];
-    
-    
-//    UIGraphicsEndImageContext();
 }
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
@@ -163,5 +153,11 @@
     [self.imageView removeGestureRecognizer:_pan];
     [self.imageView removeGestureRecognizer:_pinch];
     
+}
+
+- (IBAction)cleanHandler:(UIButton *)sender
+{
+    _tempImageView.image = nil;
+    self.imageView.image = nil;
 }
 @end
